@@ -14,8 +14,9 @@
  * @package WordPress
  */
 
-if ( file_exists( dirname(__FILE__) . '/wp-config-db.php') )
-	include( dirname(__FILE__) . '/wp-config-db.php' );
+if (file_exists( dirname(__FILE__) . '/wp-config-db.php')) {
+	require(dirname(__FILE__) . '/wp-config-db.php');
+}
 
 define('WP_SITEURL', "http://$_SERVER[HTTP_HOST]/wordpress");
 define('WP_HOME', "http://$_SERVER[HTTP_HOST]");
