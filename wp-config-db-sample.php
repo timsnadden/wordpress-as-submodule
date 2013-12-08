@@ -10,9 +10,9 @@
  * WordPress Database settings
  */
 define( 'DB_NAME',     'database_name_here' );
-define( 'DB_USER',     'db_username_here'   );
-define( 'DB_PASSWORD', 'db_password_here'   );
-define( 'DB_HOST',     'localhost'          );
+define( 'DB_USER',     'db_username_here' );
+define( 'DB_PASSWORD', 'db_password_here' );
+define( 'DB_HOST',     'localhost' );
 
 // ==============================================================
 // Salts, for security
